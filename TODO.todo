@@ -1,0 +1,21 @@
+TODO:
+  ✔ opravit pametovy chyby ve valgrindu (ET: 1h) @started(17-04-22 08:28) @done (17-04-22 12:31) @lasted(4:03)
+  ✔ vytvorit novy projekt pro LD s hlavnima classama, zobrazit neco (ET: 30m) @started(17-04-22 13:22) @done (17-04-22 13:53) @lasted(0:31)
+  ✔ dat do debug overlaye profiling info (ET: 15m) @started(17-04-22 15:38) @done (17-04-22 17:13) @lasted(1:35)
+  ✔ pohyb panaka, skakani, mireni, tracking kamerou (ET: 2h) @started(17-04-23 06:04) @done (17-04-23 15:34) @lasted(9:30)
+  ✔ ViewPort - vylepsit API (pocitani boundu?, get/acc Transformace) @done (17-04-23 08:23)
+  ☐ strileni - kulomet, raketak, laser (ET: 4h) @started(17-04-23 15:56)
+  ☐ enemaci, damage, particly krve (ET:3h)
+  ☐ kolize, destrukce terenu (ET: 8h)
+  ☐ grafika explozi, particly u raketek a explozi (ET: 1.5h)
+
+
+
+  OPRUZY V ENGINU:
+  ☐ jina kompozice entit ? nejakej EntityWrap misto static metod - neco jako EntityAccessor
+  ☐ pruda psat porad zanoreny getovacky (GUI, Viewport ...) - chtelo by to nejak dynamicky zpropagovat jen na Game (g.getViewport())
+  ☐ setGeomNormOffset v RectRenderable, SpriteRenderable a mozna nekde jinde - udelat vic user friendly settovacku ( mozna setOrigin s nejakym enumem )
+  ✔ Speed ma jenom get/set a ne acc metody, blbe se k tomu pridava - typicky akcelerovanej pohyb @done (17-04-23 15:25)
+
+  NOTES:
+    ☐ Vec2.getAngle().getDir() vs Vec2.normalize() zmerit
